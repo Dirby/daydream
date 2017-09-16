@@ -1,0 +1,71 @@
+html {
+    background-color: #d0d0cb;
+}
+
+/* ------- MAIN HEADER -------*/
+
+.window-scene img {
+    position: fixed;
+    right: 0;
+    left: 0;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    z-index: -10;
+}
+
+.window-frame {
+    background-image: url(../images/window.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    max-width: 1000px;
+    height: 0;
+    padding-top: 100%;
+    margin: 0 auto;
+}
+
+.title-section {
+    margin-top: -80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.title-daydream {
+    font-family: 'Arizonia', cursive;
+    font-size: 175px;
+    color: rgba(68, 131, 164, 0.7);
+    
+}
+
+.title-design {
+    font-family: 'Amatic', sans-serif;
+    font-size: 30px;
+    letter-spacing: 75px;
+    padding-left: 75px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    color: black;
+}
+
+nav {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 70%;
+    flex-wrap: wrap;
+}
+
+nav a {
+    font-family:  'Amatic', sans-serif;
+    text-decoration: none;
+}
+
+.nav-box {
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    margin-bottom: 50px;
+}
